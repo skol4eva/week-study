@@ -24,6 +24,7 @@ demoon.layerPopup = (function ($){
 	}
 	
 	function isOpen(){
+		//console.log(layerSection.find('.layer').length > 0);
 		return layerSection.find('.layer').length > 0;
 	}
 	
